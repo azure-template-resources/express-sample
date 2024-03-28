@@ -96,7 +96,7 @@
       "name": "[parameters('containerAppName')]",
       "type": "Microsoft.App/containerapps",
       "kind": "containerapps",
-      "location": "[parameters('location')]",
+      "location": "northcentralus(stage)",
       "dependsOn": [
         "[concat('Microsoft.App/managedEnvironments/', parameters('containerAppEnvironmentName'))]"
       ],
